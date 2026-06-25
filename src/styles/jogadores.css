@@ -1,0 +1,73 @@
+.page {
+  padding: 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-novo {
+  background: #16244b;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.form-box {
+  margin-top: 20px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.form-box input {
+  padding: 10px;
+  flex: 1;
+}
+
+.table {
+  margin-top: 30px;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 150px;
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.row.header-row {
+  background: #16244b;
+  color: white;
+  font-weight: bold;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-edit {
+  background: #f0ad4e;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.btn-delete {
+  background: #d9534f;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  cursor: pointer;
+}
