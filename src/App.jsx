@@ -6,6 +6,7 @@ import Partidas from "./pages/Partidas";
 import Rankings from "./pages/Rankings";
 import Perfil from "./pages/Perfil";
 import Jogadores from "./pages/Jogadores";
+import Equipes from "./pages/Equipes";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route path="/rankings" element={<Rankings />} />
       <Route path="/perfil" element={<Perfil />} />
       <Route path="/jogadores" element={<Jogadores />} />
+      <Route path="/equipes" element={<Equipes />} />
     </Routes>
   );
 }
